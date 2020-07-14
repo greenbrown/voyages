@@ -1,3 +1,7 @@
+body {
+  /* mirameutia added font type in body*/
+  font-family: "Avenir Next";
+}
 
 .container {
   max-width: 1170px;
@@ -5,3 +9,31 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+/* mirameutia added css for Contact Form*/
+.contact-form {
+  padding-top: 100px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color: #dee7ec;
+  color: black;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #e4e3e3;
+}
+
+.contact-submit:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+ }
