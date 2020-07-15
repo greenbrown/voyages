@@ -286,11 +286,22 @@ header {
 
 .logo {
   width: 60px;
+  border-left: 25px;
   margin-top: 10px;
 }
 
 .header-left {
   float: left;
+}
+
+.header-left a {
+  line-height: 60px;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 10px 25px;
+  color: #655c56;
+  display: block;
+  float: right;
 }
 
 .header-right {
