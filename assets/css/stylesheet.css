@@ -276,17 +276,17 @@ background-color: lightblue;
 }
 
 header {
-  height: 65px;
+  height: 80px;
   width: 100%;
-  background-color: rgba(0, 0, 128, 0.7);
+  background-color: #ccedd2;
   position: fixed;
   top: 0;
   z-index: 10;
 }
 
 .logo {
-  width: 124px;
-  margin-top: 20px;
+  width: 60px;
+  margin-top: 10px;
 }
 
 .header-left {
@@ -299,16 +299,16 @@ header {
 }
 
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
+  line-height: 60px;
+  padding: 10px 25px;
+  color: #655c56;
   display: block;
   float: left;
   transition: all 0.5s;
 }
 
 .header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #94d3ac;
 }
 
 .menu-icon {
