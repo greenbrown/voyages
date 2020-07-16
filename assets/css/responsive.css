@@ -19,6 +19,10 @@
 /* Untuk Smartphone */
 @media (max-width: 670px) {
 
+.header{
+	width:85%;
+}
+
 .header-right { 
  display: none; 
 }
@@ -56,5 +60,10 @@ line-height: 36px;
 font-size: 14px; 
  line-height: 20px; 
 
+}
+
+.jump-to ul li {
+	float: left;
+	width: 100%
 }
 }
