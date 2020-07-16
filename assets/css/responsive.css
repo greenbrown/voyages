@@ -1,6 +1,6 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {
- .lesson { 
+@media (max-width: 1000px) {
+ .travel { 
    width: 50%; 
    margin-bottom: 50px; 
   } 
@@ -17,10 +17,22 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {
+@media (max-width: 670px) {
 
+.header-right { 
+ display: none; 
+}
 
-.lesson { 
+.menu-icon { 
+ display: block; 
+} 
+
+.icon-bar {
+	display: none;
+}
+ 
+
+.travel { 
  width: 100%; 
 } 
 
@@ -29,28 +41,8 @@ footer {
  text-align: center; 
 } 
 
-.btn { 
- width: 100%; 
-} 
-
-
-.facebook { 
- margin-bottom: 10px; 
-} 
-
-
 .top-wrapper { 
 text-align: left; 
-} 
-
-
-.header-right { 
- display: none; 
-} 
-
-
-.menu-icon { 
- display: block; 
 } 
 
 
