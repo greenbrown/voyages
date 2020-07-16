@@ -66,4 +66,7 @@ font-size: 14px;
 	float: left;
 	width: 100%
 }
+
+input, textarea {
+  width: 85%;
 }
