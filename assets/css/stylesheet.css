@@ -329,6 +329,11 @@ header {
   background-color: #94d3ac;
 }
 
+.header-right a.active {
+  text-decoration-color: #655c56;
+  text-decoration-line: underline;
+}
+
 /*.menu-icon {
   color: white;
   float: right;
