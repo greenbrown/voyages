@@ -20,7 +20,7 @@
 @media (max-width: 670px) {
 
 .header{
-	width:85%;
+	width:65%;
 }
 
 .header-right { 
@@ -68,5 +68,5 @@ font-size: 14px;
 }
 
 input, textarea {
-  width: 100px;
+  width: 50px;
 }
