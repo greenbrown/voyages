@@ -347,6 +347,8 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  text-align: center;
+  width: 100%;
 }
 
 
@@ -492,59 +494,54 @@ footer {
     bottom: 100%;
   }
 }
-/*itinearies*/
-
-.services * {
-  box-sizing: border-box;
+/*gallery*/
+/* webdevtrick.com */
+html, .gallery .{
+  height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
 }
-
-.services .row::after {
-  content: "";
-  clear: both;
-  display: table;
+ 
+.gallery {
+  overflow: hidden;
+  background-color: #222;
+  display: flex;
+  align-items: center;
 }
-
-.services [class*="col-"] {
-  float: left;
-  padding: 15px;
+ 
+.gallery .contaniner {
+  position: relative;
+  flex-grow: 1;
+  margin: auto;
+  max-width: 1200px;
+  max-height: 1200px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 2vmin;
+  justify-items: center;
+  align-items: center;
 }
-
-.services .col-1 {width: 8.33%;}
-.services .col-2 {width: 16.66%;}
-.services .col-3 {width: 25%;}
-.services .col-4 {width: 33.33%;}
-.services .col-5 {width: 41.66%;}
-.services .col-6 {width: 50%;}
-.services .col-7 {width: 58.33%;}
-.services .col-8 {width: 66.66%;}
-.services .col-9 {width: 75%;}
-.services .col-10 {width: 83.33%;}
-.services .col-11 {width: 91.66%;}
-.services .col-12 {width: 100%;}
-
-
-.services .header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+ 
+.gallery img {
+  z-index: 1;
+  grid-column: span 2;
+  max-width: 100%;
+  margin-bottom: -52%;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  transition: all .25s;
 }
-
-.services .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.gallery img:nth-child(7n + 1) {
+  grid-column: 2 / span 2;
 }
-
-.services .menu li {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #33b5e5;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
-
-.services .menu li:hover {
-  background-color: #0099cc;
+.gallery img:hover {
+  z-index: 2;
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 /*jump-to*/
