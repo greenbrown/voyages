@@ -70,3 +70,7 @@ font-size: 14px;
 input, textarea {
   width: 80%;
 }
+
+.contact-submit {
+	padding-right:70px;
+}
